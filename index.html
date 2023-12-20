@@ -8,6 +8,7 @@
     <style>
         body{
             background-color: #f5f5f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .container{
@@ -15,6 +16,9 @@
             margin:auto;
 
             width: 600px;
+            box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
         }
 
         .header{
@@ -27,13 +31,37 @@
             justify-content: space-around;
             padding: 20px;
         }
+
+        .header-title{
+            color: #006666;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .header-subtitle{
+            color: #008da2;
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
     
     <div class="container">
         <div class="header">
-            Primeira Linha
+            <div class="header-title">
+                Entre para nossa comunidade!
+            </div>
+            <div class="header-subtitle">
+                Faça a sua assinatura agora e ganhe 30% de desconto!
+            </div>
+            <div>
+                Faça parte da nossa comunidade de desenvolvedores.
+                <br>
+                Tenha suporte de nossa equipe e cresça mais rápido na sua carreira.
+            </div>
         </div>
 
         <div class="flex-container">
